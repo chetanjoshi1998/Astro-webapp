@@ -1,17 +1,38 @@
-.main_wraphome{
-    position: relative;
-    display: flex;
-    justify-content: center;
-   margin-top: 20px;
-   align-items: center;
-
+.main_wraphome {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
 }
 
-.home_card{
-    
-    width: 500px;
-    height: 225px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 2px black;
+.home_card {
+  width: 500px;
+  height: 225px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px black;
+}
+.card_bg {
+  background-image: url("https://diaryofdennis.com/wp-content/uploads/2016/11/orion-nebula-and-hamburgs-light-pollution.jpg");
+  background-size: cover;
+}
+.card_bg:hover {
+  background-image: url("https://admeter.usatoday.com/gcdn/presto/2022/10/07/USAT/82b83b8c-1b0b-4655-93ce-d2016c4bd70a-Gemini.jpg?crop=1758,989,x0,y396&width=1758&height=989&format=pjpg&auto=webp");
+background-size: cover;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_bg p {
+  color: aliceblue;
+  font-size: 30px;
+  line-height: 45px;
+}
+.card_bg p:hover {
+  cursor: pointer;
+  outline-color: yellow;
+  outline-style: solid;
 }
