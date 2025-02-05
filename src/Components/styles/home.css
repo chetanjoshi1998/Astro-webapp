@@ -1,0 +1,17 @@
+.main_wraphome{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+   align-items: center;
+
+}
+
+.home_card{
+    
+    width: 500px;
+    height: 225px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px black;
+}
